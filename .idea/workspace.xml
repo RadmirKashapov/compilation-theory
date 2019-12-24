@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc43187c-9c77-4cac-8609-c71f341df71f" name="Default Changelist" comment="" />
+    <list default="true" id="cc43187c-9c77-4cac-8609-c71f341df71f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Drobin/BinarySearchKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Drobin/META-INF/Drobin.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/META-INF/compilation-theory.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/deque/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/myList/MyList$ListElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/myList/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/search/SearchKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compilation-theory/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UkxdxGsNUSZ8pDlhCOpvctZsO8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -79,5 +97,13 @@
       <screen x="0" y="49" width="1920" height="1231" />
     </state>
     <state x="448" y="451" key="com.intellij.ide.util.TipDialog/0.49.1920.1231@0.49.1920.1231" timestamp="1577201869134" />
+    <state x="640" y="224" width="634" height="883" key="refactoring.ChangeSignatureDialog" timestamp="1577219910511">
+      <screen x="0" y="49" width="1920" height="1231" />
+    </state>
+    <state x="640" y="224" width="634" height="883" key="refactoring.ChangeSignatureDialog/0.49.1920.1231@0.49.1920.1231" timestamp="1577219910511" />
+    <state x="538" y="304" key="run.anything.popup" timestamp="1577222355699">
+      <screen x="0" y="49" width="1920" height="1231" />
+    </state>
+    <state x="538" y="304" key="run.anything.popup/0.49.1920.1231@0.49.1920.1231" timestamp="1577222355699" />
   </component>
 </project>
