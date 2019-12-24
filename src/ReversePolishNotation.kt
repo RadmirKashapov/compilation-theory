@@ -1,8 +1,13 @@
 import java.util.*
 
-
+/**
+ * @return true if symbol [c] is digit
+ */
 fun isDigit(c: Char) = (c in '0'..'9')
 
+/**
+ * @return priority of operations
+ */
 fun prirority(c: Char) = when {
     c === '(' -> 1
     c === '+' || c === '-' -> 2
@@ -10,7 +15,9 @@ fun prirority(c: Char) = when {
     else -> 0
 }
 
-
+/**
+ * @return reverse Polish Notation in the best situation
+ */
 fun toReversePolishNotation(strInput: String) {
     var wasOperation = 0
     var wasBrackets = 0
@@ -62,4 +69,31 @@ fun toReversePolishNotation(strInput: String) {
     }
     while (!stack.empty()) strOut += stack.pop()
     if(wasBrackets != 0) throw Exception("Error: wrong number of brackets")
+}
+
+/**
+ * @return result of string [strOut] reversed in polish notation
+ */
+fun calculateRPN(strOut: String): Int {
+    val stack = Stack<Int>()
+    var n1: Int
+    var n2: Int
+    var res: Int = 0
+
+    for(i in 0..strOut.length){
+        if(isDigit(strOut[i])) stack.push(strOut[i]?.toInt())
+        else {
+            n2 = stack.pop();
+            n1 = stack.pop();
+            when(strOut[i]) {
+                '+' -> res = n1 + n2
+                '-' -> res = n1 - n2
+                '*' -> res = n1 * n2
+                '/' -> res = n1 / n2
+                else -> Exception("Error")
+            }
+            stack.push(res);
+        }
+    }
+    return stack.pop();
 }
